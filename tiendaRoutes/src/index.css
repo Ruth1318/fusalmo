@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+  display: flex;
+  background-color: rgb(1, 1, 1);
+  color: white;
+  flex-direction: row;
+  align-content: center;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+ nav ul{
+  list-style-type: none;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+nav a.is-active{
+  font-weight: bold;
+  pointer-events: none;
+  background-color: rgb(61, 25, 51);
+  color: white;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+ 
+ul li{
+  padding: 10px;
+}
+
+.lista{
+  text-decoration: none;
+  color: white;
+}
+
+.features{
+  padding: 3%;
+} 
+
+
+.features ul li{
+  display: inline;
+ 
+}
